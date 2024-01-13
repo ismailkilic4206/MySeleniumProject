@@ -10,7 +10,7 @@ import org.openqa.selenium.interactions.Actions;
 import java.time.Duration;
 
 public class TestBase {
-    public WebDriver driver;
+    protected WebDriver driver;
     @Before
     public void setUp(){
         ChromeOptions options = new ChromeOptions();
